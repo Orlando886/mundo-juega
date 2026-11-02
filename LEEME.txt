@@ -1,0 +1,26 @@
+MUNDO JUEGA - PROYECTO COMPLETO
+
+El catálogo de 989 juguetes ya está integrado en productos.json y productos-catalogo.json.
+Las 989 fotografías se encuentran en /uploads y están asociadas por referencia.
+
+PARA ABRIR:
+1. Descomprime este ZIP.
+2. Abre la carpeta mundo-juega-entrega en Visual Studio Code.
+3. Abre Terminal > New Terminal.
+4. Ejecuta: npm install
+5. Ejecuta: npm start
+6. Abre http://localhost:3001
+
+PANEL ADMINISTRATIVO:
+http://localhost:3001/admin.html
+
+INCLUYE:
+- Catálogo completo de 989 juguetes, precios públicos y mayoristas, referencias, categorías y niveles.
+- 989 fotografías de producto.
+- Búsqueda, filtros, orden por precio/nombre y carrito.
+- Preparación de pedido por WhatsApp.
+- Panel administrativo para agregar/eliminar productos.
+- Logo vectorial de Mundo Juega inspirado en el logo compartido.
+
+NOTA:
+La tienda funciona localmente en tu computador. Para recibir pedidos reales por internet necesitarás publicar el proyecto en un servicio de hosting y configurar tu número de WhatsApp en el enlace de contacto.

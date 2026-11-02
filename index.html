@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1557d5">
+  <title>Mundo Juega | Juguetería</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#"><img src="logo.svg" alt="Mundo Juega"><span><b>Mundo Juega</b><small>¡Un mundo para jugar!</small></span></a>
+  <nav><a href="#catalogo">Catálogo</a><a href="admin.html">Administración</a><button id="cart-open" class="cart-button">🛒 <span>Carrito</span> <i id="cart-count">0</i></button></nav>
+</header>
+<section class="hero">
+  <div class="hero-copy"><span class="eyebrow">DIVERSIÓN PARA TODOS</span><h1>Un mundo de juguetes<br><em>para imaginar y crear</em></h1><p>Encuentra ese juguete especial para llenar cada día de alegría.</p><a class="primary" href="#catalogo">Explorar juguetes <span>→</span></a></div>
+  <div class="hero-art"><div class="sun"></div><div class="toy toy1">🧸</div><div class="toy toy2">🚗</div><div class="toy toy3">🧩</div><div class="toy toy4">🎈</div><div class="hero-sticker">¡A jugar!</div></div>
+</section>
+<main id="catalogo" class="catalog-wrap">
+  <div class="section-heading"><div><span class="eyebrow">NUESTRO CATÁLOGO</span><h2>Juguetes para grandes aventuras</h2><p id="catalog-subtitle">Descubre todos nuestros productos.</p></div><div class="search"><span>⌕</span><input id="search" placeholder="Buscar por nombre o referencia..."></div></div>
+  <div class="toolbar"><div id="categories" class="chips"></div><select id="level"><option value="">Todos los niveles</option><option>Económico</option><option>Medio</option><option>Premium</option></select><select id="sort"><option value="featured">Orden recomendado</option><option value="low">Menor precio</option><option value="high">Mayor precio</option><option value="az">Nombre A-Z</option></select></div>
+  <div id="product-grid" class="product-grid"><div class="loading">Cargando juguetes...</div></div>
+  <div id="empty" class="empty hidden">No encontramos juguetes con esos filtros. Prueba otra búsqueda.</div>
+</main>
+<section class="wholesale"><div><span class="eyebrow">¿COMPRAS PARA TU NEGOCIO?</span><h2>¡También tenemos precios al por mayor!</h2><p>Consulta el precio mayorista indicado en cada producto. Aplican las condiciones de compra por categoría.</p></div><a class="primary light" href="https://wa.me/?text=Hola%20Mundo%20Juega%2C%20quiero%20informaci%C3%B3n%20de%20precios%20al%20por%20mayor">Consultar por WhatsApp ↗</a></section>
+<footer><img src="logo.svg" alt=""><p>© <span id="year"></span> Mundo Juega · La Unión, Valle del Cauca</p><a href="admin.html">Panel de administración</a></footer>
+<div id="cart-panel" class="drawer hidden"><div class="drawer-backdrop" id="cart-close"></div><aside class="drawer-content"><div class="drawer-head"><h2>Tu carrito</h2><button id="cart-x" aria-label="Cerrar">×</button></div><div id="cart-items"></div><div class="cart-total"><span>Total</span><b id="cart-total">$ 0</b></div><button id="checkout" class="primary full">Pedir por WhatsApp</button><p class="muted">El pedido se confirmará por WhatsApp según disponibilidad.</p></aside></div>
+<script src="app.js"></script>
+</body></html>

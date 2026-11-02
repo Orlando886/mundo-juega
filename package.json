@@ -1,0 +1,8 @@
+{
+  "name": "mundo-juega",
+  "version": "1.0.0",
+  "description": "Tienda virtual Mundo Juega",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "express": "^4.21.2" }
+}
